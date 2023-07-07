@@ -12,17 +12,15 @@
 
 body { 
     font-family: "Roboto", sans-serif;
-    font-color:var(--slate);
+    color:var(--slate);
     background-color: var(--white);
 }
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
-    height: 1px;
     overflow: hidden;
     position: absolute;
     white-space: nowrap;
-    width: 1px;
 }
 .link {
     text-decoration: none;
@@ -87,12 +85,13 @@ body {
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background: var(--iris);
+        background-color: var(--iris);
         cursor: pointer;
 }
 .hero-button:hover,
 .hero-button:focus {
     color: var(--ocean);
+    background-color: var(--iris);
 }
 
 /**---------------ADWANTAGES----------------*/
