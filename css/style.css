@@ -17,7 +17,6 @@ body {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     overflow: hidden;
-    position: absolute;
     white-space: nowrap;
 }
 .link {
@@ -164,12 +163,13 @@ background-color: var(--cloud);
 }
 
 .team-list {
-    background-color: var(--white);
 }
 
 .list {}
 
-.team-item {}
+.team-item {
+    background-color: var(--white);
+}
 
 .team-name {
         color: var(--navyblue);
@@ -234,6 +234,12 @@ background-color: var(--cloud);
         cursor: pointer;        
 }
 
+.button-all:hover,
+.button-all:focus {
+    color: var(--white);
+    background-color: var(--ocean);
+}
+
 .button-website {
         color: var(--iris);
         text-align: center;
@@ -281,6 +287,10 @@ background-color: var(--cloud);
     background-color: var(--cloud);
     cursor: pointer;
 }
+
+.portfolio-list {}
+
+.portfolio-item {}
 
     .portfolio-projects-titles {
             color: var(--navyblue);
